@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            height: 80px;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        #navbar{
+           display: flex;
+           align-items: center;
+           }
+           #navbar img{
+               height: 95px;
+               width: 95px;
+               margin: 9px;
+               padding: 9px;
+           }
+        ul{
+            display: flex;
+        }
+        #navbar ul li{
+            list-style: none;
+            font-size: 1.2rem;
+        }
+        #wall{
+            height: 1500px;
+            width: 1500px;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="assets/logo.jpg" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Gallery</a></li>
+            <li class="item"><a href="#">More</a></li>
+            <li class="item"><a href="#">Contact us</a></li>
+              
+        </ul>
+    </nav>
+    <div id="wall">
+      <img src="assets/snake.jpg" alt="">
+    </div>
+</body>
+</html>
